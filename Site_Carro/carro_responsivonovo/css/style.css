@@ -1,0 +1,162 @@
+/* === RESET BÁSICO === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* === ESTILOS GERAIS POR ID === */
+body#index {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+body#opala {
+  background-color: #000;
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.5em;
+}
+
+body#fusca {
+  background-color: #87ceeb;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
+}
+
+body#kombi {
+  background-color: #ffa500;
+  font-family: Garamond, serif;
+  font-size: 1.5em;
+}
+
+body#mitsubishi {
+  background-color: #d3d3d3; /* Corrigido */
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+}
+
+body#fiatuno {
+  background-color: rgba(0, 255, 21, 0.2);
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.5em;
+}
+
+/* === ELEMENTOS DE LISTA === */
+li {
+  font-size: 1.2em;
+  width: 95%;
+  margin: 0 auto;
+  color: #333;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+/* === NAVEGAÇÃO === */
+.nav {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.nav a {
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  border: 2px solid white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #222;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.nav a:first-child {
+  border-left: none;
+}
+
+.nav a:last-child {
+  border-right: none;
+}
+
+/* === TÍTULOS E PARÁGRAFOS === */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h4,
+p {
+  margin: 0;
+}
+
+.titulo,
+.tituloOpala {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.titulo {
+  color: black;
+}
+
+.tituloOpala {
+  color: white;
+}
+
+/* === TEXTO === */
+.Texto {
+  color: #6e6e6e;
+  text-align: justify;
+  text-indent: 50px;
+  width: 95%;
+  max-width: 940px;
+  margin: 0 auto 15px auto;
+  line-height: 1.5;
+}
+
+/* === IMAGENS === */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* === SEÇÕES === */
+.andar {
+  width: 95%;
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* === BLOCOS DE CARROS === */
+.carro_velho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.carro {
+  border: 2px dashed black;
+  width: 90%;
+  max-width: 300px;
+  padding: 30px;
+  text-align: center;
+}
