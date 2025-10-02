@@ -3,44 +3,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html,
-body {
+main {
   overflow-x: hidden;
 }
 
 /* === ESTILOS GERAIS POR ID === */
-body#index {
-  font-family: Arial, sans-serif;
+main#index {
   font-size: 1.5em;
 }
 
-body#opala {
+main#opala {
   background-color: #000;
   font-family: "Brush Script MT", cursive;
   font-size: 1.5em;
 }
 
-body#fusca {
+main#fusca {
   background-color: #87ceeb;
   font-family: "Dancing Script", cursive;
   font-size: 1.5em;
 }
 
-body#kombi {
+main#kombi {
   background-color: #ffa500;
   font-family: Garamond, serif;
   font-size: 1.5em;
 }
 
-body#mitsubishi {
+main#mitsubishi {
   background-color: #d3d3d3; /* Corrigido */
   font-family: Georgia, serif;
   font-size: 1.5em;
 }
 
-body#fiatuno {
+main#fiatuno {
   background-color: rgba(0, 255, 21, 0.2);
   font-family: "Segoe UI", sans-serif;
   font-size: 1.5em;
@@ -60,15 +60,16 @@ li {
 .nav {
   display: flex;
   width: 100%;
-  height: 50px;
-  font-size: 20px;
+  height: 80px;
+  font-size: 30px;
+  background-color: #6e6e6e;
 }
 
 .nav a {
   flex: 1;
   text-align: center;
-  padding: 15px 0;
-  border: 2px solid white;
+  padding: 20px 0;
+  border: 1px solid #cbd5e1;
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
@@ -100,19 +101,16 @@ p {
   margin: 0;
 }
 
-.titulo,
-.tituloOpala {
+.titulo {
   font-size: 1.3em;
   text-align: center;
   margin: 0 auto;
 }
 
 .titulo {
-  color: black;
-}
-
-.tituloOpala {
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 60px;
 }
 
 /* === TEXTO === */
@@ -126,12 +124,23 @@ p {
   line-height: 1.5;
 }
 
+.dados_carro p {
+  font-size: 50px; /* aumenta ou diminui o valor em px, rem, em */
+}
+
 /* === IMAGENS === */
-img {
-  max-width: 100%;
+.img_main {
+  padding: 20px;
+  max-width: 30rem;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+.carro img {
+  width: 100%;
+  max-width: 30rem;
+  padding: px;
+  text-align: center;
 }
 
 /* === SEÇÕES === */
@@ -156,7 +165,7 @@ img {
 .carro {
   border: 2px dashed black;
   width: 90%;
-  max-width: 300px;
+  max-width: 500px;
   padding: 30px;
   text-align: center;
 }
