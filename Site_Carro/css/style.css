@@ -140,9 +140,9 @@ h1 {
 /* === IMAGENS === */
 
 .img_main {
+  width: 100%;
   max-width: 30rem;
   padding: 3px;
-  max-width: 30rem;
   border-radius: 15px;
   height: auto;
   display: block;
