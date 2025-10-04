@@ -19,34 +19,34 @@ main#index {
 
 main#opala {
   background-color: #4b5563;
-  font-family: "Brush Script MT", cursive;
+
   font-size: 1.5em;
   padding: 15px;
 }
 
 main#fusca {
-  background: linear-gradient(to bottom, #87ceeb 90%, #ffffff 100%);
-  font-family: "Dancing Script", cursive;
+  background-color: #87ceeb;
+
   font-size: 1.5em;
   padding: 15px;
 }
 main#kombi {
-  background: linear-gradient(to bottom, #99f6e4 90%, #ffffff 100%);
-  font-family: Garamond, serif;
+  background-color: #99f6e4;
+
   font-size: 1.5em;
   padding: 15px;
 }
 
 main#mitsubishi {
   background: linear-gradient(to bottom, #d3d3d3 90%, #ffffff 100%);
-  font-family: Georgia, serif;
+
   font-size: 1.5em;
   padding: 15px;
 }
 
 main#fiatuno {
   background-color: #f87171;
-  font-family: "Segoe UI", sans-serif;
+
   font-size: 1.5em;
   padding: 15px;
 }
@@ -155,14 +155,13 @@ h1 {
 .carro img {
   width: 100%;
   max-width: 30rem;
-  padding: 3px;
+  padding: 2px;
   max-width: 100%;
   border-radius: 15px;
   height: auto;
-
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  background: rgb(0, 0, 0);
+  background-color: #2b2929;
   text-align: center;
 }
 
@@ -185,10 +184,10 @@ h1 {
 }
 
 .carro {
-  border: 2px dashed black;
+  border: 2px solid #2b2929;
   width: 90%;
   max-width: 300px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   border-radius: 15px;
   background-color: #d4d4d4;
@@ -215,6 +214,22 @@ section {
 }
 .carro_velho_opala {
   background-color: #6b7280;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.carro_velho_fusca {
+  background-color: #bae6fd;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.carro_velho_kombi {
+  background-color: #ccfbf1;
 
   display: flex;
   flex-wrap: wrap;
