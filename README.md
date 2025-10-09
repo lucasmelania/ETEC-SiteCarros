@@ -13,6 +13,7 @@ Criar um site informativo e visualmente atrativo que narre a história de carros
 ## ✅ Requisitos do Projeto
 
 - [x] Apresentar **no mínimo 5 carros antigos**
+- [x] Apresentar **Elementos cards.**
 - [x] Incluir uma **introdução** sobre o tema
 - [x] Utilizar **CSS de forma criativa**
 - [x] Aplicar **posicionamento de elementos**
